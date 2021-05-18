@@ -1,7 +1,7 @@
 #This is edge detect filter in Pillow
 from PIL import Image, ImageFilter
 
-image = Image.open(r"/home/sidhant/Pictures/Webcam/sidface.jpg")
+image = Image.open(r"<image path>")
 
 image = image.convert("L")
 # image = image.filter(ImageFilter.FIND_EDGES)
